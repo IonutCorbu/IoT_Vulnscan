@@ -1,0 +1,63 @@
+# 🔐 IoT Cybersecurity Scanner
+
+## 🚀 Overview
+
+The **IoT Cybersecurity Scanner** is a powerful tool designed to identify vulnerabilities in IoT devices. With the increasing number of connected devices, security is a major concern. This scanner helps secure IoT networks by detecting weaknesses before attackers exploit them.
+
+## 🎯 Features
+
+- 🔍 **Vulnerability Detection** – Scan IoT devices for known security flaws.
+- 📡 **Network Monitoring** – Identify unauthorized devices on your network.
+- ⚡ **Real-Time Alerts** – Get notified about potential security risks.
+- 📊 **Detailed Reports** – Generate comprehensive security analysis.
+- 🌐 **Scanning the Home Network** – Identify IoT devices connected to your home network.
+- 🔎 **Running Security Scanners** – Utilize tools like OpenVAS and ZAP to assess vulnerabilities.
+- 🧠 **Enriching Data with LLM** – Enhance collected information using large language models.
+- ❌ **Device Management** – Offer the ability to disconnect devices from WLAN.
+- 📱 **User-Friendly Interfaces** – Develop web and mobile interfaces for accessibility.
+
+## 📖 Explanations
+
+What we aim to achieve:
+
+- ✅ **Security Assessment:** Identify and fix vulnerabilities before they are exploited.
+- 🏗 **Better IoT Defense:** Improve security measures for connected devices.
+- 🔗 **Network Integrity:** Ensure only authorized devices are operating.
+- 📡 **Threat Intelligence:** Detect suspicious behavior and prevent attacks.
+- 🤖 **Automated Scanning:** Run periodic security checks with minimal effort.
+
+## 💻 How to Contribute
+
+Follow these steps to contribute to the project:
+
+1. **Clone the repository** 🛠️
+
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. **Create a new branch for your task** 🌱
+
+   ```bash
+   git checkout -b <task_number_new_branch>
+   ```
+
+3. **Add modified files** 📂
+
+   ```bash
+   git add .
+   ```
+
+4. **Commit changes with a descriptive message** 📝
+
+   ```bash
+   git commit -m "<describe_the_task_resolved>"
+   ```
+
+5. **Push the branch to the repository** 🚀
+
+   ```bash
+   git push -u origin <task_number_new_branch>
+   ```
+
+
