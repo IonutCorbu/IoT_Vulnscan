@@ -40,9 +40,12 @@ Follow these steps to contribute to the project:
 
    ```bash
    git checkout -b <task_number_partOfTheProject_new_branch>
-   e.g. 
-    git checkout -b 101_frontend_addScanList
    ```
+   **Example:**
+   ```bash
+   git checkout -b 101-frontend-addScanList
+   ```
+   **⚠️ Note:** Use hyphens (`-`) instead of underscores (`_`) in branch names. This ensures better compatibility with GitHub and other tools.
 
 3. **Add modified files** 📂
 
@@ -61,5 +64,3 @@ Follow these steps to contribute to the project:
    ```bash
    git push -u origin <task_number_partOfTheProject_new_branch>
    ```
-
-
