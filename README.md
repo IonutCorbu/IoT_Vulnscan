@@ -39,7 +39,9 @@ Follow these steps to contribute to the project:
 2. **Create a new branch for your task** 🌱
 
    ```bash
-   git checkout -b <task_number_new_branch>
+   git checkout -b <task_number_partOfTheProject_new_branch>
+   e.g. 
+    git checkout -b 101_frontend_addScanList
    ```
 
 3. **Add modified files** 📂
@@ -57,7 +59,7 @@ Follow these steps to contribute to the project:
 5. **Push the branch to the repository** 🚀
 
    ```bash
-   git push -u origin <task_number_new_branch>
+   git push -u origin <task_number_partOfTheProject_new_branch>
    ```
 
 
