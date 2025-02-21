@@ -4,6 +4,11 @@
 
 The **IoT Cybersecurity Scanner** is a powerful tool designed to identify vulnerabilities in IoT devices. With the increasing number of connected devices, security is a major concern. This scanner helps secure IoT networks by detecting weaknesses before attackers exploit them.
 
+## Sequence diagram
+
+In order to explain the way that components are interacting between them, we create a sequence diagram:
+![Sequence diagram](./Diagrama%20de%20secventa.svg)
+
 ## 🎯 Features
 
 - 🔍 **Vulnerability Detection** – Scan IoT devices for known security flaws.
