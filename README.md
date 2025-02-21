@@ -19,7 +19,7 @@ In order to explain the way that components are interacting between them, we cre
 - 🔎 **Running Security Scanners** – Utilize tools like OpenVAS and ZAP to assess vulnerabilities.
 - 🧠 **Enriching Data with LLM** – Enhance collected information using large language models.
 - ❌ **Device Management** – Offer the ability to disconnect devices from WLAN.
-- 📱 **User-Friendly Interfaces** – Develop web and mobile interfaces for accessibility.
+- 📱 **User-Friendly Interfaces** – Develop web interface for accessibility.
 
 ## 📖 Explanations
 
