@@ -54,7 +54,8 @@ Also in **Realm Settings**, modify Display Name like this
 ```
 
 This will render in auth pages our logo.
-In **Realm Settings**, in Themes subtab, modify the login theme with the value iot_scanner.
+
+The las setting, in **Realm Settings**, in Themes subtab, modify the login theme with the value iot_scanner.
 
 ## 💻 How to Contribute
 
