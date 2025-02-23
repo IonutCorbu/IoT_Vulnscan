@@ -31,6 +31,32 @@ What we aim to achieve:
 - 📡 **Threat Intelligence:** Detect suspicious behavior and prevent attacks.
 - 🤖 **Automated Scanning:** Run periodic security checks with minimal effort.
 
+## Keycloak usage
+
+### Only if you want to test locally - you need to do it only once because I added *.db files in GitIgnore
+In order to deploy locally Keycloak for test, use the following command in the keycloak directory:
+- for Linux:
+```
+bin/kc.sh start-dev
+```
+- for Windows:
+```
+bin\kc.bat start-dev
+```
+
+After this, access localhost:8080, create an admin account and when you are logged in, create another realm from the up-right corner. 
+After its creation, use **Realm Settings** in Login tab, permit all from **Login screen customization** and **Email as username** from 
+Email settings.
+
+Also in **Realm Settings**, modify Display Name like this 
+```
+<div class="kc-logo-text"></div>
+```
+
+This will render in auth pages our logo.
+
+After this the application
+
 ## 💻 How to Contribute
 
 Follow these steps to contribute to the project:
