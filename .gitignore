@@ -23,6 +23,9 @@ dist/
 # C extensions
 *.so
 
+*.db
+master-realm.json
+
 # Distribution / packaging
 .Python
 build/
@@ -426,7 +429,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-*.db
 
 ### ReactNative.Android Stack ###
 # Gradle files
