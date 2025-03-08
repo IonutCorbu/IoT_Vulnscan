@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keycloak Authenticated Page</title>
+</head>
+<body>
+    <h1>Welcome to the Protected Page</h1>
+    <p id="token"></p>
+
+    <script>
+        window.auth.getToken().then(token => {
+            if (token) {
+                document.getElementById('token').innerText = "Access Token: " + token;
+            } else {
+                document.getElementById('token').innerText = "No token found. Please log in.";
+                window.location.href = 'http://localhost:8080/realms/iot_scanner/protocol/openid-connect/auth?client_id=account&response_type=token&redirect_uri=http://localhost/keycloak-redirect';
+            }
+        });
+    </script>
+</body>
+</html>
